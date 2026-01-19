@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0f172a;
+  --fg: #f8fafc;
+  --card: #0b1220;
+}
+
+.light {
+  --bg: #f1f5f9;
+  --fg: #0f172a;
+  --card: #f8fafc;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.nav-bg {
+  background-color: rgba(17, 24, 39, 0.9);
+}
+
+.light .nav-bg {
+  background-color: rgba(240, 244, 248, 0.92);
+}
+
+.card {
+  background-color: var(--card);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.hero-slide {
+  background-size: cover;
+  background-position: center;
+}
